@@ -9,6 +9,9 @@ function Home() {
                 <h2><Link to="/projects">Projects</Link></h2>
                 <h2><Link to="/resume">Resume</Link></h2>
             </div>
+            <div className='welcomeBox'>
+                <h3>Welcome to my portfolio!</h3>
+            </div>
         </header>
         </>
         

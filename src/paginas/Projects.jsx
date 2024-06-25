@@ -14,14 +14,14 @@ function Projects() {
                 <h2><Link to="/resume">Resume</Link></h2>
             </div>
         </header>
-        <main>
+        <main className='projectsBox'>
             {projectsData.map((project) => {
-                return <>
+                return <div className='projectBox'>
                 <h2>{project.name}</h2>
                 <img src={project.image}/>
                 <h3>{project.description}</h3>
-                <h4>{project.url}</h4>
-                </>
+                <h4><a href={project.url}>See project</a></h4>
+                </div>
             })}
         </main>
         </>
