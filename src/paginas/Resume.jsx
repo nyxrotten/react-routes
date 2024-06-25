@@ -14,7 +14,8 @@ function Resume() {
                 <h2><Link to="/projects">Projects</Link></h2>
             </div>
         </header>
-        <main>
+        <main className='resumeBox'>
+            <div className='studiesBox'>
             {studiesData.map((studies) => {
                 return <>
                 <h2>{studies.title}</h2>
@@ -22,13 +23,17 @@ function Resume() {
                 <h4>{studies.date}</h4>
                 </>
             })}
-             {experciencesData.map((experience) => {
+            </div>
+            <div className='linea'></div>
+            <div className='experiencesBox'>
+            {experciencesData.map((experience) => {
                 return <>
                 <h2>{experience.title}</h2>
                 <h3>{experience.company}</h3>
                 <h4>{experience.date}</h4>
                 </>
-            })} 
+            })}
+            </div>
         </main>
         </>
     ) 

@@ -100,3 +100,33 @@ img {
     text-align: center;
     
 }
+
+.resumeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.studiesBox,
+.experiencesBox {
+    width: 500px;
+}
+
+.studiesBox {
+    margin-top: 30px;
+}
+
+.studiesBox h2,
+.experiencesBox h2 {
+    margin-top: 20px;
+}
+
+.linea {
+    width: 600px;
+    height: 1px;
+    background-color: var(--seagreen);
+}
+
