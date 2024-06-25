@@ -1,6 +1,17 @@
+import { useParams, Link} from 'react-router-dom'
+
 function Home() {
     return (
-        <p>Bienvenido</p>
+        <>
+        <header>
+            <h1>Home</h1>
+            <div>
+                <h2><Link to="/projects">Projects</Link></h2>
+                <h2><Link to="/resume">Resume</Link></h2>
+            </div>
+        </header>
+        </>
+        
     )
 }
 

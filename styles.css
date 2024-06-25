@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    display: flex;
+    column-gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: red;
+}
